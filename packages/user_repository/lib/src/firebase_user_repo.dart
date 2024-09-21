@@ -2,11 +2,8 @@ import 'dart:developer';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:users_repository/src/entities/user_entity.dart';
-import 'package:users_repository/src/models/user.dart';
-import 'package:users_repository/src/user_repo.dart';
+import 'package:user_repository/user_repository.dart';
 
 class FirebaseUserRepo implements UserRepository {
   final FirebaseAuth _firebaseAuth;
