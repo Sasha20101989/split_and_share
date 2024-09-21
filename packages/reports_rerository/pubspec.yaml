@@ -1,5 +1,5 @@
-name: users_repository
-description: Tre Repo that handles reports
+name: reports_repository
+description: Tre Repo that handles users
 publish_to: 'none'
 version: 0.0.1
 
@@ -9,10 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  firebase_auth: ^4.16.0
-  cloud_firestore: ^4.9.2
-  rxdart: ^0.27.7
 
 dev_dependencies:
   flutter_test:
